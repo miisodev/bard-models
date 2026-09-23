@@ -1,0 +1,39 @@
+{
+  "catalogVersion": 2,
+  "release": "models-v1",
+  "upstream": {
+    "repository": "ggerganov/whisper.cpp",
+    "revision": "5359861c739e955e79d9a303bcbc70fb988958b1",
+    "url": "https://huggingface.co/ggerganov/whisper.cpp"
+  },
+  "license": {
+    "name": "MIT",
+    "source": "https://huggingface.co/ggerganov/whisper.cpp"
+  },
+  "models": [
+    {
+      "role": "fast_multilingual",
+      "asset": "ggml-small-q8_0.bin",
+      "upstreamModel": "small",
+      "quantization": "Q8_0",
+      "sizeBytes": 264464607,
+      "sha256": "49c8fb02b65e6049d5fa6c04f81f53b867b5ec9540406812c643f177317f779f"
+    },
+    {
+      "role": "best_english",
+      "asset": "ggml-large-v3-turbo-q5_0.bin",
+      "upstreamModel": "large-v3-turbo",
+      "quantization": "Q5_0",
+      "sizeBytes": 574041195,
+      "sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2"
+    },
+    {
+      "role": "best_multilingual",
+      "asset": "ggml-large-v3-q5_0.bin",
+      "upstreamModel": "large-v3",
+      "quantization": "Q5_0",
+      "sizeBytes": 1081140203,
+      "sha256": "d75795ecff3f83b5faa89d1900604ad8c780abd5739fae406de19f23ecd98ad1"
+    }
+  ]
+}
