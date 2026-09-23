@@ -1,0 +1,8 @@
+Apache License, Version 2.0
+
+The Whisper Small and Qwen3-ASR conversion repositories identify their model
+cards as Apache-2.0. The complete canonical text is maintained at:
+https://www.apache.org/licenses/LICENSE-2.0.txt
+
+Bard redistributes the exact conversion bytes without modification and
+retains the upstream model/conversion notices in NOTICE.md.

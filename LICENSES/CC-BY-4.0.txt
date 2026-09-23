@@ -1,0 +1,8 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The Parakeet TDT 0.6B v2 conversion repository identifies its model card as
+CC-BY-4.0. The complete canonical licence text is maintained at:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Attribution for the Parakeet asset is recorded in NOTICE.md and the model host
+manifest. Bard redistributes the exact conversion bytes without modification.
