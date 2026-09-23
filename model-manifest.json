@@ -1,39 +1,50 @@
 {
-  "catalogVersion": 2,
-  "release": "models-v1",
-  "upstream": {
-    "repository": "ggerganov/whisper.cpp",
-    "revision": "5359861c739e955e79d9a303bcbc70fb988958b1",
-    "url": "https://huggingface.co/ggerganov/whisper.cpp"
-  },
-  "license": {
-    "name": "MIT",
-    "source": "https://huggingface.co/ggerganov/whisper.cpp"
+  "catalogVersion": 3,
+  "release": "models-v2",
+  "engine": {
+    "crate": "transcribe-cpp",
+    "version": "0.2.3",
+    "source": "https://github.com/handy-computer/transcribe.cpp/tree/v0.2.3"
   },
   "models": [
     {
       "role": "fast_multilingual",
-      "asset": "ggml-small-q8_0.bin",
-      "upstreamModel": "small",
-      "quantization": "Q8_0",
-      "sizeBytes": 264464607,
-      "sha256": "49c8fb02b65e6049d5fa6c04f81f53b867b5ec9540406812c643f177317f779f"
+      "asset": "whisper-small-Q6_K.gguf",
+      "architecture": "whisper",
+      "upstream": "openai/whisper-small",
+      "conversionRepo": "handy-computer/whisper-small-gguf",
+      "conversionRevision": "a2073177cb69bd74b9ca9460b852d17fbfd5d68c",
+      "quantization": "Q6_K",
+      "languages": 99,
+      "sizeBytes": 212107328,
+      "sha256": "4d14215a972101fff787fc59e30b908ee511c725600317e02c9032cb8799f32d",
+      "license": "Apache-2.0"
     },
     {
       "role": "best_english",
-      "asset": "ggml-large-v3-turbo-q5_0.bin",
-      "upstreamModel": "large-v3-turbo",
-      "quantization": "Q5_0",
-      "sizeBytes": 574041195,
-      "sha256": "394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2"
+      "asset": "parakeet-tdt-0.6b-v2-Q6_K.gguf",
+      "architecture": "parakeet",
+      "upstream": "nvidia/parakeet-tdt-0.6b-v2",
+      "conversionRepo": "handy-computer/parakeet-tdt-0.6b-v2-gguf",
+      "conversionRevision": "382796e405a9fe37145938dccbabfb25e93e4286",
+      "quantization": "Q6_K",
+      "languages": 1,
+      "sizeBytes": 600408576,
+      "sha256": "44c7c363438e03b613cf8ced8b7e6fd1beb2b3805008136fe5e922ab3c79eea9",
+      "license": "CC-BY-4.0"
     },
     {
       "role": "best_multilingual",
-      "asset": "ggml-large-v3-q5_0.bin",
-      "upstreamModel": "large-v3",
-      "quantization": "Q5_0",
-      "sizeBytes": 1081140203,
-      "sha256": "d75795ecff3f83b5faa89d1900604ad8c780abd5739fae406de19f23ecd98ad1"
+      "asset": "Qwen3-ASR-1.7B-Q6_K.gguf",
+      "architecture": "qwen3_asr",
+      "upstream": "Qwen/Qwen3-ASR-1.7B",
+      "conversionRepo": "handy-computer/Qwen3-ASR-1.7B-gguf",
+      "conversionRevision": "3555bd238a8572bbace3ebf60d23b036dc0a5dbe",
+      "quantization": "Q6_K",
+      "languages": 30,
+      "sizeBytes": 1692554208,
+      "sha256": "c75a961b7134a6c952d89797865cb0d0376876185aee04ef6d12c31c2952e4e1",
+      "license": "Apache-2.0"
     }
   ]
 }

@@ -1,14 +1,34 @@
-# Model asset provenance
+# Model asset provenance and notices
 
-The release assets in this repository are redistributed from the upstream
-`ggerganov/whisper.cpp` Hugging Face repository at revision
-`5359861c739e955e79d9a303bcbc70fb988958b1`.
+The Bard model releases contain exact Q6_K GGUF conversions downloaded from
+these public, pinned Hugging Face conversion repositories:
 
-The upstream model card identifies the model weights as MIT-licensed. Bard keeps
-the upstream repository, revision, file size, SHA-256, and model role in the
-application catalog. The application does not modify the weights.
+- `handy-computer/whisper-small-gguf` at
+  `a2073177cb69bd74b9ca9460b852d17fbfd5d68c`
+- `handy-computer/parakeet-tdt-0.6b-v2-gguf` at
+  `382796e405a9fe37145938dccbabfb25e93e4286`
+- `handy-computer/Qwen3-ASR-1.7B-gguf` at
+  `3555bd238a8572bbace3ebf60d23b036dc0a5dbe`
 
-- Upstream: https://huggingface.co/ggerganov/whisper.cpp
-- Upstream model card: https://huggingface.co/ggerganov/whisper.cpp
-- whisper.cpp model documentation: https://github.com/ggerganov/whisper.cpp/blob/master/models/README.md
-- OpenAI Whisper model guidance: https://github.com/openai/whisper#available-models-and-languages
+The application records the exact asset SHA-256 and byte size. The files are
+rehosted unchanged for Bard's first-party download path; Bard does not modify
+or claim ownership of the weights.
+
+## Licences
+
+- **Whisper Small:** Apache-2.0 conversion card; base model
+  <https://huggingface.co/openai/whisper-small>. Retain the applicable Apache
+  notice and attribution.
+- **Parakeet TDT 0.6B v2:** CC-BY-4.0; base model
+  <https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2>. Attribution and the
+  licence notice must accompany redistribution and use.
+- **Qwen3-ASR 1.7B:** Apache-2.0 conversion card; base model
+  <https://huggingface.co/Qwen/Qwen3-ASR-1.7B>. Retain the applicable Apache
+  notice and attribution.
+
+Conversion and engine references:
+
+- <https://huggingface.co/handy-computer/whisper-small-gguf>
+- <https://huggingface.co/handy-computer/parakeet-tdt-0.6b-v2-gguf>
+- <https://huggingface.co/handy-computer/Qwen3-ASR-1.7B-gguf>
+- <https://github.com/handy-computer/transcribe.cpp/tree/v0.2.3>
