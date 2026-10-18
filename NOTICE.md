@@ -7,6 +7,8 @@ these public, pinned Hugging Face conversion repositories:
   `a2073177cb69bd74b9ca9460b852d17fbfd5d68c`
 - `handy-computer/parakeet-tdt-0.6b-v2-gguf` at
   `382796e405a9fe37145938dccbabfb25e93e4286`
+- `handy-computer/parakeet-tdt-0.6b-v3-gguf` at
+  `1d191e69bad32acb0abad57b7679c1860183eeba`
 - `handy-computer/Qwen3-ASR-1.7B-gguf` at
   `3555bd238a8572bbace3ebf60d23b036dc0a5dbe`
 
@@ -22,6 +24,10 @@ or claim ownership of the weights.
 - **Parakeet TDT 0.6B v2:** CC-BY-4.0; base model
   <https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2>. Attribution and the
   licence notice must accompany redistribution and use.
+- **Parakeet TDT 0.6B v3:** CC-BY-4.0; base model
+  <https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3>. Attribution and the
+  licence notice must accompany redistribution and use; the quantisation is
+  indicated by the asset name (Q6_K).
 - **Qwen3-ASR 1.7B:** Apache-2.0 conversion card; base model
   <https://huggingface.co/Qwen/Qwen3-ASR-1.7B>. Retain the applicable Apache
   notice and attribution.
@@ -30,5 +36,6 @@ Conversion and engine references:
 
 - <https://huggingface.co/handy-computer/whisper-small-gguf>
 - <https://huggingface.co/handy-computer/parakeet-tdt-0.6b-v2-gguf>
+- <https://huggingface.co/handy-computer/parakeet-tdt-0.6b-v3-gguf>
 - <https://huggingface.co/handy-computer/Qwen3-ASR-1.7B-gguf>
 - <https://github.com/handy-computer/transcribe.cpp/tree/v0.2.3>
