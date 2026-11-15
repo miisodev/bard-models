@@ -19,8 +19,9 @@ or claim ownership of the weights.
 ## Licences
 
 - **Whisper Small:** Apache-2.0 conversion card; base model
-  <https://huggingface.co/openai/whisper-small>. Retain the applicable Apache
-  notice and attribution.
+  <https://huggingface.co/openai/whisper-small>, MIT © OpenAI
+  (`LICENSES/MIT-OpenAI-Whisper.txt`). Retain the applicable notices and
+  attribution.
 - **Parakeet TDT 0.6B v2:** CC-BY-4.0; base model
   <https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2>. Attribution and the
   licence notice must accompany redistribution and use.
